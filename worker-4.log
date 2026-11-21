@@ -1,0 +1,923 @@
+
+--- respawn 2026-11-21T08:03:40.197Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:03:50.404Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:04:02.064Z ---
+
+--- respawn 2026-11-21T08:04:05.270Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:04:20.281Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:04:50.367Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:04:59.776Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:05:10.529Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:05:15.943Z ---
+
+--- respawn 2026-11-21T08:05:19.760Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:05:39.895Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:05:42.717Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:05:50.307Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:05:58.539Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:06:13.842Z ---
+
+--- respawn 2026-11-21T08:06:14.758Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:06:20.962Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:06:50.359Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:06:59.739Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:07:04.947Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:07:12.986Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:07:15.800Z ---
+
+--- respawn 2026-11-21T08:07:20.499Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:07:44.647Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:07:50.340Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:07:55.816Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:08:01.835Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:08:15.676Z ---
+
+--- respawn 2026-11-21T08:08:21.286Z ---
+
+--- respawn 2026-11-21T08:08:21.772Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:08:50.336Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:08:55.691Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:09:04.616Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:09:08.893Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:09:15.677Z ---
+
+--- respawn 2026-11-21T08:09:15.791Z ---
+
+--- respawn 2026-11-21T08:09:21.792Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Worker 4 is already active as pid 7492
+    at acquireWorkerLock (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:250:15)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2658:3)
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:09:31.203Z ---
+
+--- respawn 2026-11-21T08:09:35.403Z ---
+
+--- respawn 2026-11-21T08:09:46.565Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:09:55.541Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:10:00.588Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:10:04.686Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:10:15.707Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:10:20.244Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:10:26.029Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:10:34.404Z ---
+
+--- respawn 2026-11-21T08:10:36.883Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:10:50.576Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:10:59.260Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:11:08.808Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:11:15.896Z ---
+
+--- respawn 2026-11-21T08:11:20.562Z ---
+
+--- respawn 2026-11-21T08:11:26.202Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:11:49.670Z ---
+
+--- respawn 2026-11-21T08:11:50.938Z ---
+
+--- respawn 2026-11-21T08:11:53.684Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:12:15.730Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:12:20.039Z ---
+
+--- respawn 2026-11-21T08:12:20.569Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:12:31.037Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:12:37.575Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:12:46.809Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:12:51.708Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:13:15.382Z ---
+
+--- respawn 2026-11-21T08:13:15.871Z ---
+
+--- respawn 2026-11-21T08:13:20.791Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:13:34.337Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:13:50.473Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:14:01.332Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:14:07.674Z ---
+
+--- respawn 2026-11-21T08:14:08.970Z ---
+
+--- respawn 2026-11-21T08:14:16.472Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:14:29.837Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:14:41.566Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Error: Worker 4 is already active as pid 3612
+    at acquireWorkerLock (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:250:15)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2658:3)
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:15:05.948Z ---
+
+--- respawn 2026-11-21T08:15:16.042Z ---
+
+--- respawn 2026-11-21T08:15:22.499Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] Error: Worker 4 is already active as pid 12496
+    at acquireWorkerLock (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:250:15)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2658:3)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:15:51.288Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:16:02.918Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:16:15.933Z ---
+
+--- respawn 2026-11-21T08:16:21.053Z ---
+
+--- respawn 2026-11-21T08:16:31.144Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:16:39.090Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:16:51.557Z ---
+
+--- respawn 2026-11-21T08:16:56.128Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+
+--- respawn 2026-11-21T08:17:16.078Z ---
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+
+--- respawn 2026-11-21T08:17:20.823Z ---
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] Error: Tor died during bootstrap (code -4058) 
+    at WorkerTor.startDaemon (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:631:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async WorkerTor.startFresh (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:655:5)
+    at async ProxyRotator.next (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:901:11)
+    at async main (file:///C:/Users/Admin/Downloads/lll-scraper-main/lll-scraper-main/audit.mjs:2874:13)
+[w4:ij:pro] IP mode=tor
+[w4:ij:pro] Starting persistent Tor socks=127.0.0.1:19054 control=127.0.0.1:29054
+[w4:ij:pro] tor: Nov 21 16:24:57.735 [warn] Path for GeoIPFile (<default>) is relative and will resolve to C:\Users\Admin\Downloads\lll-scraper-main\lll-scraper-main\<default>. 
+[w4:ij:pro] tor: Nov 21 16:24:57.000 [notice] Set list of supported TLS groups to: ?*X25519MLKEM768 / ?SecP256r1MLKEM768 / *P-256:?X25519:P-224
+Nov 21 16:24:57.000 [notice] Boo
+[w4:ij:pro] tor: Nov 21 16:24:58.000 [notice] Bootstrapped 5% (conn): Connecting to a relay
+[w4:ij:pro] tor: Nov 21 16:24:59.000 [notice] Bootstrapped 10% (conn_done): Connected to a relay
+[w4:ij:pro] tor: Nov 21 16:24:59.000 [notice] Bootstrapped 14% (handshake): Handshaking with a relay
+[w4:ij:pro] tor: Nov 21 16:24:59.000 [notice] Bootstrapped 15% (handshake_done): Handshake with a relay done
+[w4:ij:pro] tor: Nov 21 16:24:59.000 [notice] Bootstrapped 20% (onehop_create): Establishing an encrypted directory connection
+[w4:ij:pro] tor: Nov 21 16:25:00.000 [notice] Bootstrapped 25% (requesting_status): Asking for networkstatus consensus
+[w4:ij:pro] tor: Nov 21 16:25:00.000 [notice] Bootstrapped 30% (loading_status): Loading networkstatus consensus
+[w4:ij:pro] tor: Nov 21 16:25:04.000 [notice] Bootstrapped 40% (loading_keys): Loading authority key certs
+[w4:ij:pro] tor: Nov 21 16:25:08.000 [notice] Bootstrapped 45% (requesting_descriptors): Asking for relay descriptors
+Nov 21 16:25:08.000 [notice] I learned some more directory
+[w4:ij:pro] tor: Nov 21 16:25:10.000 [notice] Bootstrapped 50% (loading_descriptors): Loading relay descriptors
+[w4:ij:pro] tor: Nov 21 16:25:20.000 [notice] Bootstrapped 56% (loading_descriptors): Loading relay descriptors
+[w4:ij:pro] tor: Nov 21 16:25:24.000 [notice] Bootstrapped 62% (loading_descriptors): Loading relay descriptors
+[w4:ij:pro] tor: Nov 21 16:25:28.000 [notice] Bootstrapped 69% (loading_descriptors): Loading relay descriptors
+Nov 21 16:25:28.000 [notice] New control connection opened from 
+[w4:ij:pro] tor: Nov 21 16:25:30.000 [notice] Bootstrapped 75% (enough_dirinfo): Loaded enough directory info to build circuits
+[w4:ij:pro] tor: Nov 21 16:25:31.000 [notice] Bootstrapped 90% (ap_handshake_done): Handshake finished with a relay to build circuits
+Nov 21 16:25:31.000 [notice] Bootstrapped 
+[w4:ij:pro] tor: Nov 21 16:25:33.000 [notice] Bootstrapped 100% (done): Done
+[w4:ij:pro] Tor ready on 19054 exit=23.191.200.104
+[w4:ij:pro] Launching persistent Chrome profile /tmp/lll-pw-w4-r0
+[w4:ij:pro] Proxy tor#1 socks5://127.0.0.1:19054
+[w4:ij:pro] Opening https://lastletterlibrary.com
+[w4:ij:pro] Library mode=pro
+[w4:ij:pro] Turnstile mint hard timeout after 28000ms
+[w4:ij:pro] Search mode=direct (skip UI Wait Ns… gate)
+[w4:ij:pro] Site Turnstile remint timed out (32882ms)
+[w4:ij:pro] Cleaned 1 old rotated profile(s)
+[w4:ij:pro] Loaded 0 prefixes, 0 words; queue=1
+[w4:ij:pro] Searching "i" | queue=0 | words=0
+[w4:ij:pro] Managed Turnstile miss (18037ms)
+[w4:ij:pro] Failed "i" attempt 1: No Turnstile token for direct search
+[w4:ij:pro] Saved 0 worker words
+[w4:ij:pro] Turnstile miss — soft reload before rotate
+[w4:ij:pro] Turnstile mint hard timeout after 15000ms
+[w4:ij:pro] Site Turnstile remint timed out (17076ms)
+[w4:ij:pro] Soft reload mint failed — rotating immediately
+[w4:ij:pro] heartbeat words=0 queue=1 rotation=1 idle=60s
+[w4:ij:pro] heartbeat words=0 queue=1 rotation=1 idle=120s
+[w4:ij:pro] Tor NEWNYM gen=1; waiting 8000ms
+[w4:ij:pro] heartbeat words=0 queue=1 rotation=1 idle=180s
+[w4:ij:pro] No successful search for 180s — respawning worker
+[w4:ij:pro] Graceful shutdown on watchdog
+[w4:ij:pro] Saved 0 worker words
+[w4:ij:pro] Tor exited code=null

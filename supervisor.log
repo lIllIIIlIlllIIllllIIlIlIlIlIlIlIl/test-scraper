@@ -1,0 +1,2810 @@
+Starting 12 recursive scrapers against https://lastletterlibrary.com
+PROXY_MODE=tor
+LIBRARY_MODE=pro (activeMode on /api/words/game)
+SEARCH_MODE=direct FAST_MODE=1
+MIN_GAP_MS=15500
+Hardened: auto-respawn on crash, kill+respawn on stale logs,
+Tor rotate on BANNED_IP/Turnstile/timeout, exit-IP dedup, never drop prefixes.
+Stagger=3500ms cooldown=0ms stale=360000ms
+Audit w0 pid=19632 letters=ab proxy=tor → worker-0.log
+Audit w0 (ab) exited with code 1
+Audit w1 pid=572 letters=cd proxy=tor → worker-1.log
+Audit w1 (cd) exited with code 1
+Audit w2 pid=21380 letters=ef proxy=tor → worker-2.log
+Audit w2 (ef) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 8000ms)
+Audit w0 pid=22456 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w3 pid=15524 letters=gh proxy=tor → worker-3.log
+Audit w0 (ab) exited with code 1
+Audit w3 (gh) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 8000ms)
+Audit w1 pid=9736 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w4 pid=14340 letters=ij proxy=tor → worker-4.log
+Audit w1 (cd) exited with code 1
+Audit w4 (ij) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 8000ms)
+Audit w2 pid=6824 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w5 pid=3740 letters=kl proxy=tor → worker-5.log
+Audit w2 (ef) exited with code 1
+Audit w5 (kl) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 8000ms)
+Audit w3 pid=7660 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w6 pid=788 letters=mn proxy=tor → worker-6.log
+Audit w3 (gh) exited with code 1
+Audit w6 (mn) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 8000ms)
+Audit w4 pid=15904 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w7 pid=20088 letters=op proxy=tor → worker-7.log
+Audit w4 (ij) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w8 pid=7784 letters=qr proxy=tor → worker-8.log
+Respawning Audit w5 (kl) after exit (delay 8000ms)
+Audit w5 pid=7536 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 16000ms)
+Wiped profile for w0 (ab) after 2 recent exits
+Audit w0 pid=19072 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w8 (qr) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w0 (ab) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 16000ms)
+Wiped profile for w1 (cd) after 2 recent exits
+Audit w1 pid=21548 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 8000ms)
+Audit w6 pid=11096 letters=mn proxy=tor → worker-6.log (respawn)
+Audit w9 pid=13512 letters=st proxy=tor → worker-9.log
+Audit w1 (cd) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w7 (op) after exit (delay 8000ms)
+Audit w7 pid=11336 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 16000ms)
+Wiped profile for w2 (ef) after 2 recent exits
+Audit w2 pid=8540 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w7 (op) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w10 pid=8948 letters=uv proxy=tor → worker-10.log
+Audit w10 (uv) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 8000ms)
+Audit w8 pid=16164 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w11 pid=3104 letters=wxyz proxy=tor → worker-11.log
+
+All workers launched. Supervisor watching forever.
+Merged words: last.txt
+Stop: pkill -f 'node audit.mjs'; pkill -f 'node run-12.mjs'
+Respawning Audit w3 (gh) after exit (delay 16000ms)
+Wiped profile for w3 (gh) after 2 recent exits
+Audit w3 pid=9888 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w8 (qr) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w3 (gh) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 16000ms)
+Wiped profile for w4 (ij) after 2 recent exits
+Audit w4 pid=22204 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w9 (st) after exit (delay 8000ms)
+Audit w9 pid=18436 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 8000ms)
+Audit w10 pid=16116 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w4 (ij) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 16000ms)
+Wiped profile for w5 (kl) after 2 recent exits
+Audit w5 pid=15692 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w5 (kl) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 8000ms)
+Audit w11 pid=18976 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 16000ms)
+Wiped profile for w6 (mn) after 2 recent exits
+Audit w6 pid=3692 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w7 (op) after exit (delay 16000ms)
+Wiped profile for w7 (op) after 2 recent exits
+Audit w7 pid=12344 letters=op proxy=tor → worker-7.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 16000ms)
+Wiped profile for w8 (qr) after 2 recent exits
+Audit w8 pid=17924 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w8 (qr) exited with code 1
+Respawning Audit w9 (st) after exit (delay 16000ms)
+Wiped profile for w9 (st) after 2 recent exits
+Audit w9 pid=16940 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 16000ms)
+Wiped profile for w10 (uv) after 2 recent exits
+Audit w10 pid=10184 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w9 (st) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 32000ms)
+Wiped profile for w0 (ab) after 3 recent exits
+Audit w0 pid=7400 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w10 (uv) exited with code 1
+Audit w0 (ab) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 32000ms)
+Wiped profile for w1 (cd) after 3 recent exits
+Audit w1 pid=6732 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w1 (cd) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 32000ms)
+Wiped profile for w2 (ef) after 3 recent exits
+Audit w2 pid=2356 letters=ef proxy=tor → worker-2.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 16000ms)
+Wiped profile for w11 (wxyz) after 2 recent exits
+Audit w11 pid=11600 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w2 (ef) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 32000ms)
+Wiped profile for w3 (gh) after 3 recent exits
+Audit w3 pid=5612 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w3 (gh) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 32000ms)
+Wiped profile for w4 (ij) after 3 recent exits
+Audit w4 pid=11408 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w4 (ij) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 32000ms)
+Wiped profile for w5 (kl) after 3 recent exits
+Audit w5 pid=4524 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w5 (kl) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 32000ms)
+Wiped profile for w6 (mn) after 3 recent exits
+Audit w6 pid=19068 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w7 (op) after exit (delay 32000ms)
+Wiped profile for w7 (op) after 3 recent exits
+Audit w7 pid=7320 letters=op proxy=tor → worker-7.log (respawn)
+Audit w6 (mn) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 32000ms)
+Wiped profile for w8 (qr) after 3 recent exits
+Audit w8 pid=6316 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w8 (qr) exited with code 1
+Respawning Audit w9 (st) after exit (delay 32000ms)
+Wiped profile for w9 (st) after 3 recent exits
+Audit w9 pid=11352 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 32000ms)
+Wiped profile for w10 (uv) after 3 recent exits
+Audit w10 pid=11016 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w9 (st) exited with code 1
+Audit w10 (uv) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 4 recent exits
+Audit w0 pid=14328 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 4 recent exits
+Audit w1 pid=3740 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 4 recent exits
+Audit w2 pid=23412 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 4 recent exits
+Audit w3 pid=17624 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 4 recent exits
+Audit w4 pid=13340 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 4 recent exits
+Audit w5 pid=12948 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 4 recent exits
+Audit w6 pid=21364 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 4 recent exits
+Audit w7 pid=7360 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 4 recent exits
+Audit w8 pid=9268 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 4 recent exits
+Audit w9 pid=20804 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 4 recent exits
+Audit w10 pid=23024 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 3 recent exits
+Audit w11 pid=3404 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w11 (wxyz) after exit (delay 32000ms)
+Audit w2 (ef) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w4 (ij) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 64000ms)
+Wiped profile for w0 (ab) after 5 recent exits
+Audit w0 pid=14776 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w0 (ab) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 64000ms)
+Wiped profile for w1 (cd) after 5 recent exits
+Audit w1 pid=18976 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 64000ms)
+Wiped profile for w2 (ef) after 5 recent exits
+Audit w2 pid=12688 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w1 (cd) exited with code 1
+Audit w2 (ef) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 64000ms)
+Wiped profile for w3 (gh) after 5 recent exits
+Audit w3 pid=19744 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w3 (gh) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 64000ms)
+Wiped profile for w4 (ij) after 5 recent exits
+Audit w4 pid=22536 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w4 (ij) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 64000ms)
+Wiped profile for w5 (kl) after 5 recent exits
+Audit w5 pid=17772 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w5 (kl) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 64000ms)
+Wiped profile for w6 (mn) after 5 recent exits
+Audit w6 pid=12968 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w7 (op) after exit (delay 64000ms)
+Wiped profile for w7 (op) after 5 recent exits
+Audit w7 pid=11040 letters=op proxy=tor → worker-7.log (respawn)
+Audit w6 (mn) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 64000ms)
+Wiped profile for w8 (qr) after 5 recent exits
+Audit w8 pid=20812 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 6 recent exits
+Audit w0 pid=9028 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 6 recent exits
+Audit w1 pid=10192 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 6 recent exits
+Audit w2 pid=5312 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 6 recent exits
+Audit w3 pid=1712 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 6 recent exits
+Audit w4 pid=17424 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 6 recent exits
+Audit w5 pid=3480 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 6 recent exits
+Audit w6 pid=21776 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 6 recent exits
+Audit w7 pid=16736 letters=op proxy=tor → worker-7.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 5 recent exits
+Audit w9 pid=22588 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 5 recent exits
+Audit w10 pid=22168 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 4 recent exits
+Audit w11 pid=8428 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 1 active, 0 complete, 11 restarting
+Respawning Audit w9 (st) after exit (delay 64000ms)
+Audit w8 (qr) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 64000ms)
+Audit w0 (ab) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w4 (ij) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 64000ms)
+Wiped profile for w11 (wxyz) after 5 recent exits
+Audit w11 pid=21588 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 7 recent exits
+Audit w0 pid=19012 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 7 recent exits
+Audit w1 pid=3880 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 7 recent exits
+Audit w2 pid=8996 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 7 recent exits
+Audit w3 pid=15024 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 7 recent exits
+Audit w4 pid=16780 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 7 recent exits
+Audit w5 pid=10524 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 7 recent exits
+Audit w6 pid=23496 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 7 recent exits
+Audit w7 pid=10920 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 6 recent exits
+Audit w8 pid=21064 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 6 recent exits
+Audit w9 pid=6232 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 6 recent exits
+Audit w10 pid=22456 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 6 recent exits
+Audit w11 pid=18164 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Audit w2 (ef) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 8 recent exits
+Audit w0 pid=14824 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 8 recent exits
+Audit w1 pid=1640 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w0 (ab) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 8 recent exits
+Audit w2 pid=15832 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w1 (cd) exited with code 1
+Audit w2 (ef) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 8 recent exits
+Audit w3 pid=13060 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w3 (gh) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 8 recent exits
+Audit w4 pid=14004 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w4 (ij) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 8 recent exits
+Audit w5 pid=21248 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w5 (kl) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 8 recent exits
+Audit w6 pid=7644 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 8 recent exits
+Audit w7 pid=12496 letters=op proxy=tor → worker-7.log (respawn)
+Audit w6 (mn) exited with code 1
+Audit w7 (op) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 9 recent exits
+Audit w0 pid=10584 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 9 recent exits
+Audit w1 pid=13216 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 9 recent exits
+Audit w2 pid=20108 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 9 recent exits
+Audit w3 pid=18928 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 9 recent exits
+Audit w4 pid=16992 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 9 recent exits
+Audit w5 pid=23472 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 9 recent exits
+Audit w6 pid=2700 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 9 recent exits
+Audit w7 pid=16996 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 7 recent exits
+Audit w8 pid=15532 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 7 recent exits
+Audit w9 pid=5784 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 7 recent exits
+Audit w10 pid=10796 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 7 recent exits
+Audit w11 pid=7016 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Audit w0 (ab) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w3 (gh) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 8 recent exits
+Audit w11 pid=2536 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 7 recent exits
+Audit w0 pid=12276 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 7 recent exits
+Audit w1 pid=11880 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 7 recent exits
+Audit w2 pid=10184 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 8 recent exits
+Audit w3 pid=1128 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 8 recent exits
+Audit w4 pid=13304 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 8 recent exits
+Audit w5 pid=8728 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 8 recent exits
+Audit w6 pid=12640 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 8 recent exits
+Audit w7 pid=3160 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 7 recent exits
+Audit w8 pid=14228 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 7 recent exits
+Audit w9 pid=7816 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 7 recent exits
+Audit w10 pid=17020 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 9 recent exits
+Audit w11 pid=15624 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Audit w1 (cd) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 7 recent exits
+Audit w0 pid=12780 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 7 recent exits
+Audit w1 pid=5224 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 7 recent exits
+Audit w2 pid=15464 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 7 recent exits
+Audit w3 pid=21880 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w2 (ef) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 7 recent exits
+Audit w4 pid=10516 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w3 (gh) exited with code 1
+Audit w4 (ij) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 7 recent exits
+Audit w5 pid=5844 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w5 (kl) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 7 recent exits
+Audit w6 pid=14672 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 7 recent exits
+Audit w7 pid=22148 letters=op proxy=tor → worker-7.log (respawn)
+Audit w6 (mn) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 8 recent exits
+Audit w0 pid=20180 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 8 recent exits
+Audit w1 pid=2356 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 8 recent exits
+Audit w2 pid=18676 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 8 recent exits
+Audit w3 pid=23356 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 8 recent exits
+Audit w4 pid=19860 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 8 recent exits
+Audit w5 pid=11328 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 8 recent exits
+Audit w6 pid=11880 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 5 recent exits
+Audit w8 pid=13304 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 5 recent exits
+Audit w9 pid=13740 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 5 recent exits
+Audit w10 pid=5964 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 7 recent exits
+Audit w11 pid=16396 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 1 active, 0 complete, 11 restarting
+Audit w7 (op) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 8 recent exits
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Audit w7 pid=10320 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Audit w1 (cd) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 7 recent exits
+Audit w11 pid=22168 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 7 recent exits
+Audit w0 pid=9948 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 7 recent exits
+Audit w1 pid=14816 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 7 recent exits
+Audit w2 pid=17020 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 7 recent exits
+Audit w3 pid=15692 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 7 recent exits
+Audit w4 pid=5068 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 7 recent exits
+Audit w5 pid=6252 letters=kl proxy=tor → worker-5.log (respawn)Respawning Audit w1 (cd) after exit (delay 8000ms)
+Audit w1 pid=9356 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w4 pid=15744 letters=ij proxy=tor → worker-4.log
+Audit w0 (ab) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 8000ms)
+Audit w2 pid=12148 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w5 pid=13368 letters=kl proxy=tor → worker-5.log
+Audit w3 (gh) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w6 pid=21396 letters=mn proxy=tor → worker-6.log
+Audit w5 (kl) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w7 pid=7472 letters=op proxy=tor → worker-7.log
+Respawning Audit w3 (gh) after exit (delay 8000ms)
+Audit w3 pid=14132 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w6 (mn) exited with code 1
+Audit w8 pid=11648 letters=qr proxy=tor → worker-8.log
+Respawning Audit w4 (ij) after exit (delay 8000ms)
+Audit w4 pid=17436 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w5 (kl) after exit (delay 8000ms)
+Audit w5 pid=23224 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 16000ms)
+Wiped profile for w0 (ab) after 2 recent exits
+Audit w0 pid=3952 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w9 pid=5004 letters=st proxy=tor → worker-9.log
+Audit w3 (gh) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 8000ms)
+Audit w6 pid=7016 letters=mn proxy=tor → worker-6.log (respawn)
+Audit w10 pid=9100 letters=uv proxy=tor → worker-10.log
+Respawning Audit w1 (cd) after exit (delay 16000ms)
+Wiped profile for w1 (cd) after 2 recent exits
+Audit w1 pid=8208 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w6 (mn) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 16000ms)
+Wiped profile for w2 (ef) after 2 recent exits
+Audit w2 pid=6444 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w1 (cd) exited with code 1
+Audit w11 pid=11628 letters=wxyz proxy=tor → worker-11.log
+
+All workers launched. Supervisor watching forever.
+Merged words: last.txt
+Stop: pkill -f 'node audit.mjs'; pkill -f 'node run-12.mjs'
+Audit w2 (ef) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w7 (op) after exit (delay 8000ms)
+Audit w7 pid=18868 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w8 (qr) after exit (delay 8000ms)
+Audit w8 pid=22964 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w9 (st) after exit (delay 8000ms)
+Audit w9 pid=6500 letters=st proxy=tor → worker-9.log (respawn)
+Audit w7 (op) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 8000ms)
+Audit w10 pid=15692 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w10 (uv) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 8000ms)
+Audit w11 pid=19620 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w3 (gh) after exit (delay 16000ms)
+Wiped profile for w3 (gh) after 2 recent exits
+Audit w3 pid=10400 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 16000ms)
+Wiped profile for w4 (ij) after 2 recent exits
+Audit w4 pid=15464 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w5 (kl) after exit (delay 16000ms)
+Wiped profile for w5 (kl) after 2 recent exits
+Audit w5 pid=18968 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w5 (kl) exited with code 1
+RespawniRespawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 8 recent exits
+Audit w0 pid=15036 letters=ab proxy=tor → worker-0.log Audit w6 (mn) exited with code 1
+Respawning Audit w7 (op) after exit (delay 16000ms)
+Wiped profile for w7 (op) after 2 recent exits
+Audit w7 pid=3764 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w8 (qr) after exit (delay 16000ms)
+Wiped profile for w8 (qr) after 2 recent exits
+Audit w8 pid=4364 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w9 (st) after exit (delay 16000ms)
+Wiped profile for w9 (st) after 2 recent exits
+Audit w9 pid=10060 letters=st proxy=tor → worker-9.log (respawn)
+Audit w7 (op) exited with code 1
+AAudit w2 (ef) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 8000ms)
+Audit w0 pid=19504 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w3 pid=23508 letters=gh proxy=tor → worker-3.log
+Audit w0 (ab) exited with code 1
+Audit w3 (gh) exited with cRespawRespawning Audit w1 (cd) after exit (delay 8000ms)
+Audit w1 pid=9840 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w4 pid=16040 letters=ij proxy=tor → worker-4.log
+Audit w1 (cd) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 8000ms)
+Audit w2 pid=3252 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w5 pid=14120 letters=kl proxy=tor → worker-5.log
+Audit w4 (ij) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 8000ms)
+Audit w3 pid=9184 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w6 pid=12096 letters=mn proxy=tor → worker-6.log
+Audit w2 (ef) exited with code 1
+Audit w7 pid=8944 letters=op proxy=tor → worker-7.log
+Respawning Audit w4 (ij) after exit (delay 8000ms)
+Failed to respawn w4: Error: ENOENT: no such file or directory, mkdir 'C:\tRespawning Audit w3 (gh) after exit (delay 32000ms)
+Wiped profile for w3 (gh) after 3 recent exits
+Audit w3 pid=22136 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 32000ms)
+Wiped profile for w4 (ij) after 3 recent exits
+Audit w4 pid=16404 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w5 (kl) after exit (delay 32000ms)
+Wiped profile for w5 (kl) after 3 recent exits
+Audit w5 pid=20836 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 32000ms)
+Wiped profile for w6 (mn) after 3 recent exits
+Audit w6 pid=10912 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w7 (op) after exit (delay 32000ms)
+Respawning Audit w8 (qr) after exit (delay 32000ms)
+Wiped profile for w7 (op) after 3 recent exits
+Wiped profile for w8 (qr) after 3 recent exits
+Audit w7 pid=5420 letters=op proxy=tor → worker-7.log (respawn)
+Audit w8 pid=4524 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w9 (st) after exit (delay 32000ms)
+Wiped profile for w9 (st) after 3 recent exits
+Audit w9 pid=6928 letters=st proxy=tor → worker-9.log (respawn)
+Audit w3 (gh) exited with code 1
+Audit w4 (ij) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 32000ms)
+Wiped profile for w10 (uv) after 3 recent exits
+Audit w10 pid=9096 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w5 (kl) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 4 recent exits
+Audit w6 (mn) exited with code 1
+Audit w0 pid=21204 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 4 recent exits
+Audit w1 pid=9900 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 4 recent exitAudit w9 (st) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 8000ms)
+Audit w8 pid=17380 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w2 (ef) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w8 (qr) exited with code 1
+Respawning Audit w9 (st) after exit (delay 8000ms)
+Audit w9 pid=15596 letters=st proxy=tor → worker-9.log (respawn)
+Audit w9 (st) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 8000ms)
+Audit w10 pid=14256 letters=uv proxy=tor → worker-10.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 8000ms)
+Audit w11 pid=13236 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w7 (op) after exit (delay 16000ms)
+Wiped profile for w7 (op) after 2 recent exits
+Audit w7 pid=12180 letters=op proxy=tor → worker-7.log (respawn)
+Audit w7 (op) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 16000ms)
+Respawning Audit w6 (mn) after exit (delay 16000ms)
+Wiped profile for w5 (kl) after 2 recent exits
+Wiped profile for w6 (mn) after 2 recent exits
+Audit w5 pid=7732 letters=kl proxyRespawning Audit w0 (ab) after exit (delay 64000ms)
+Wiped profile for w0 (ab) after 5 recent exits
+Audit w0 pid=10932 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 64000ms)
+Wiped profile for w1 (cd) after 5 recent exits
+Audit w1 pid=11724 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w0 (ab) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 64000ms)
+Wiped profile for w2 (ef) after 5 recent exits
+Audit w2 pid=12144 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w1 (cd) exited with code 1
+Audit w2 (ef) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 6 recent exits
+Audit w0 pid=23036 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 6 recent exits
+Audit w1 pid=1104 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 6 recent exits
+Audit w2 pid=15064 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 5 recent exits
+Audit w3 pid=7392 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 5 recent exits
+Audit w4 pid=15436 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 5 recent exits
+Audit w5 pid=21060 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 5 recent exits
+Audit w6 pid=2812 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 4 recent exits
+Audit w7 pid=20720 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 4 recent exits
+Audit w8 pid=16272 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 4 recent exits
+Audit w9 pid=7444 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 4 recent exits
+Audit w10 pid=22228 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 4 recent exits
+Audit w11 pid=7112 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w3 (gh) after exit (delay 64000ms)
+Respawning Audit w4 (ij) after exit (delay 64000ms)
+Respawning Audit w5 (kl) after exit (delay 64000ms)
+Respawning Audit w6 (mn) after exit (delay 64000ms)
+Respawning Audit w7 (op) after exit (delay 64000ms)
+Audit w2 (ef) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 64000ms)
+Respawning Audit w9 (st) after exit (delay 64000ms)
+Wiped profile for w9 (st) after 5 recent exits
+Wiped profile for w8 (qr) after 5 recent exits
+Audit w9 pid=8020 letters=st proxy=tor → worker-9.log (respawn)
+Audit w8 pid=17608 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 64000ms)
+Wiped profile for w10 (uv) after 5 recent exits
+Audit w10 pid=5372 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w8 (qr) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 64000ms)
+Wiped profile for w11 (wxyz) after 5 recent exits
+Audit w11 pid=18908 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 7 recent exits
+Audit w0 pid=10844 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 7 recent exits
+Audit w1 pid=2144 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 7 recent exits
+Audit w2 pid=8320 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 6 recent exits
+Audit w3 pid=9988 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 6 recent exits
+Audit w4 pid=23516 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 6 recent exits
+Audit w5 pid=7604 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 6 recent exits
+Audit w6 pid=1500 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 5 recent exits
+Audit w7 pid=8208 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 6 recent exits
+Audit w8 pid=11208 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 6 recent exits
+Audit w9 pid=13684 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 6 recent exits
+Audit w10 pid=20388 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 6 recent exits
+Audit w11 pid=21892 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Audit w3 (gh) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w8 (qr) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 8 recent exits
+Audit w0 pid=6544 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 8 recent exits
+Audit w1 pid=6072 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 8 recent exits
+Audit w2 pid=12784 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w2 (ef) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 9 recent exits
+Audit w0 pid=17132 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 9 recent exits
+Audit w1 pid=21500 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 9 recent exits
+Audit w2 pid=21048 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 7 recent exits
+Audit w3 pid=20820 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 7 recent exits
+Audit w4 pid=19224 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 7 recent exits
+Audit w5 pid=14872 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 7 recent exits
+Audit w6 pid=11980 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 6 recent exits
+Audit w7 pid=20792 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 7 recent exits
+Audit w8 pid=16052 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 7 recent exits
+Audit w9 pid=21580 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 7 recent exits
+Audit w10 pid=10912 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 7 recent exits
+Audit w11 pid=14260 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Audit w9 (st) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 7 recent exits
+Audit w0 pid=2356 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 7 recent exits
+Audit w1 pid=8320 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 7 recent exits
+Audit w2 pid=5192 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 6 recent exits
+Audit w3 pid=10936 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 6 recent exits
+Audit w4 pid=17164 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 6 recent exits
+Audit w5 pid=21776 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 6 recent exits
+Audit w6 pid=11408 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 6 recent exits
+Audit w7 pid=18516 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 7 recent exits
+Audit w8 pid=6232 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 7 recent exits
+Audit w9 pid=5224 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 7 recent exits
+Audit w10 pid=10764 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 7 recent exits
+Audit w11 pid=10940 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Audit w1 (cd) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 8 recent exits
+Audit w1 pid=16856 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Audit w0 (ab) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w1 (cd) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 7 recent exits
+Audit w0 pid=13728 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 8 recent exits
+Audit w1 pid=16296 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 7 recent exits
+Audit w2 pid=8176 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w2 (ef) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 8 recent exits
+Audit w0 pid=20520 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 9 recent exits
+Audit w1 pid=2424 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 8 recent exits
+Audit w2 pid=10192 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 5 recent exits
+Audit w3 pid=12492 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 5 recent exits
+Audit w4 pid=10160 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 5 recent exits
+Audit w5 pid=17588 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 5 recent exits
+Audit w6 pid=6816 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 5 recent exits
+Audit w7 pid=10948 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 6 recent exits
+Audit w8 pid=9600 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 6 recent exits
+Audit w9 pid=21200 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 6 recent exits
+Audit w10 pid=5116 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 6 recent exits
+Audit w11 pid=9028 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Audit w2 (ef) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w3 (gh) exited with code 1
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 6 recent exits
+Audit w9 pid=16856 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 9 recent exits
+Wiped profile for w5 (kl) after 5 recent exits
+Wiped profile for w3 (gh) after 5 recent exits
+Wiped profile for w4 (ij) after 5 recent exits
+Audit w1 pid=19516 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w5 pid=22884 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w3 pid=6644 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w4 pid=22204 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w10 (uv) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 5 recent exits
+Audit w6 pid=3364 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 8 recent exits
+Audit w2 pid=21032 letters=ef proxy=tor → worker-2.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 6 recent exits
+Wiped profile for w0 (ab) after 8 recent exits
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 5 recent exits
+Audit w8 pid=11652 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w0 pid=12784 letters=ab proxy=tor → worker-0.log (respawn)
+Wiped profile for w11 (wxyz) after 6 recent exits
+Audit w7 pid=20108 letters=op proxy=tor → worker-7.log (respawn)
+Audit w11 pid=18868 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w5 (kl) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w7 (op) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 8 recent exits
+Audit w0 pid=21136 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 9 recent exits
+Audit w1 pid=6492 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 8 recent exits
+Audit w2 pid=9268 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 6 recent exits
+Audit w3 pid=20988 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 6 recent exits
+Audit w4 pid=18868 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 6 recent exits
+Audit w5 pid=22204 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 6 recent exits
+Audit w6 pid=13280 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 6 recent exits
+Audit w7 pid=21200 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 7 recent exits
+Audit w8 pid=10584 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 7 recent exits
+Audit w9 pid=5364 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 6 recent exits
+Audit w10 pid=16596 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 7 recent exits
+Audit w11 pid=1344 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Audit w2 (ef) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w6 (mn) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 9 recent exits
+Audit w1 pid=19960 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 8 recent exits
+Audit w0 pid=17052 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w1 (cd) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 6 recent exits
+Audit w6 pid=10760 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 6 recent exits
+Audit w3 pid=9152 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 6 recent exits
+Audit w5 pid=5204 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 5 recent exits
+Audit w10 pid=15864 letters=uv proxy=tor → worker-10.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 8 recent exits
+Audit w2 pid=16324 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w0 (ab) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 6 recent exits
+Audit w4 pid=1800 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 6 recent exits
+Audit w7 pid=13748 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 6 recent exits
+Audit w11 pid=13836 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 6 recent exits
+Audit w9 pid=12576 letters=st proxy=tor → worker-9.log (respawn)
+Audit w6 (mn) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 6 recent exits
+Audit w8 pid=10984 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w3 (gh) exited with code 1
+Audit w5 (kl) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 10 recent exits
+Audit w1 pid=14388 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w2 (ef) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w1 (cd) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 9 recent exits
+Audit w0 pid=12564 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 11 recent exits
+Audit w1 pid=10548 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 9 recent exits
+Audit w2 pid=14684 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 7 recent exits
+Audit w3 pid=10584 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 7 recent exits
+Audit w4 pid=9268 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 7 recent exits
+Audit w5 pid=16996 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 7 recent exits
+Audit w6 pid=17448 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 7 recent exits
+Audit w7 pid=3520 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 7 recent exits
+Audit w8 pid=11084 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 7 recent exits
+Audit w9 pid=22744 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 6 recent exits
+Audit w10 pid=6036 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 7 recent exits
+Audit w11 pid=22304 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 3 active, 0 complete, 9 restarting
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Audit w2 (ef) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 12 recent exits
+Audit w1 pid=21684 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Audit w3 (gh) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Audit w9 (st) exited with code 1
+Audit w5 (kl) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Audit w4 (ij) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 9 recent exits
+Audit w0 pid=21920 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Audit w10 (uv) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 7 recent exits
+Audit w6 (mn) exited with code 1
+Audit w9 pid=18656 letters=st proxy=tor → worker-9.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Audit w8 (qr) exited with code 1
+Wiped profile for w11 (wxyz) after 7 recent exits
+Audit w11 pid=1944 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 7 recent exits
+Audit w3 pid=16580 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w1 (cd) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 6 recent exits
+Audit w10 pid=20672 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w0 (ab) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 7 recent exits
+Audit w5 pid=16596 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 8 recent exits
+Audit w3 pid=23128 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 7 recent exits
+Wiped profile for w4 (ij) after 7 recent exits
+Audit w6 pid=7900 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Audit w4 pid=12888 letters=ij proxy=tor → worker-4.log (respawn)
+Wiped profile for w2 (ef) after 9 recent exits
+Wiped profile for w11 (wxyz) after 8 recent exits
+Wiped profile for w9 (st) after 8 recent exits
+Wiped profile for w1 (cd) after 12 recent exits
+Audit w2 pid=19900 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w11 pid=23300 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w9 pid=7424 letters=st proxy=tor → worker-9.log (respawn)
+Audit w1 pid=6448 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 10 recent exits
+Audit w0 pid=17164 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 7 recent exits
+Wiped profile for w7 (op) after 7 recent exits
+Audit w8 pid=12492 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w7 pid=19876 letters=op proxy=tor → worker-7.log (respawn)
+Audit w5 (kl) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w1 (cd) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 10 recent exits
+Audit w0 pid=17168 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 12 recent exits
+Audit w1 pid=19172 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 9 recent exits
+Audit w2 pid=4572 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 9 recent exits
+Audit w3 pid=23136 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 8 recent exits
+Audit w4 pid=9616 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 8 recent exits
+Audit w5 pid=3612 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 8 recent exits
+Audit w6 pid=13868 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 8 recent exits
+Audit w7 pid=12704 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 8 recent exits
+Audit w8 pid=14344 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 9 recent exits
+Audit w9 pid=20136 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 7 recent exits
+Audit w10 pid=18624 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 9 recent exits
+Audit w11 pid=10204 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Audit w3 (gh) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 13 recent exits
+Audit w1 pid=15700 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 10 recent exits
+Audit w0 pid=10600 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 8 recent exits
+Audit w6 pid=3952 letters=mn proxy=tor → worker-6.log (respawn)
+Audit w1 (cd) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 9 recent exits
+Audit w3 pid=10708 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w0 (ab) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 8 recent exits
+Audit w5 pid=14460 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w6 (mn) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 9 recent exits
+Audit w2 pid=13684 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w3 (gh) exited with code 1
+Audit w5 (kl) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 7 recent exits
+Audit w10 pid=6160 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w2 (ef) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 9 recent exits
+Wiped profile for w7 (op) after 8 recent exits
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Audit w11 pid=22612 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w7 pid=17448 letters=op proxy=tor → worker-7.log (respawn)
+Wiped profile for w4 (ij) after 8 recent exits
+Audit w4 pid=2092 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 8 recent exits
+Audit w8 pid=22084 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 9 recent exits
+Audit w9 pid=2512 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 13 recent exits
+Audit w1 pid=13164 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w7 (op) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w1 (cd) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 11 recent exits
+Audit w0 pid=6340 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 14 recent exits
+Audit w1 pid=2436 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 10 recent exits
+Audit w2 pid=9052 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 10 recent exits
+Audit w3 pid=12912 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 9 recent exits
+Audit w4 pid=22980 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 9 recent exits
+Audit w5 pid=12544 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 9 recent exits
+Audit w6 pid=10984 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 9 recent exits
+Audit w7 pid=10772 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 9 recent exits
+Audit w8 pid=14412 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 10 recent exits
+Audit w9 pid=20868 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 8 recent exits
+Audit w10 pid=2396 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 10 recent exits
+Audit w11 pid=12096 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Audit w0 (ab) exited with code 1
+Audit w3 (gh) exited with code 1
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Audit w9 (st) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Audit w1 (cd) exited with code 1
+Audit w2 (ef) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Audit w10 (uv) exited with code 1
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Audit w4 (ij) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 14 recent exits
+Audit w8 (qr) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w1 pid=14292 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 11 recent exits
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Audit w0 pid=7252 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w5 (kl) exited with code 1
+Wiped profile for w9 (st) after 11 recent exits
+Audit w9 pid=4872 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 10 recent exits
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w3 pid=20652 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w11 pid=19824 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 8 recent exits
+Audit w10 pid=18988 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w1 (cd) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 9 recent exits
+Audit w5 pid=8788 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w11 pid=10160 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 11 recent exits
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 9 recent exits
+Audit w3 pid=4128 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w4 pid=14120 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 10 recent exits
+Audit w2 pid=21224 letters=ef proxy=tor → worker-2.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 9 recent exits
+Wiped profile for w0 (ab) after 12 recent exits
+Audit w6 pid=19568 letters=mn proxy=tor → worker-6.log (respawn)
+Audit w0 pid=23004 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 9 recent exits
+Wiped profile for w7 (op) after 9 recent exits
+Wiped profile for w9 (st) after 11 recent exits
+Audit w8 pid=16724 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w7 pid=22740 letters=op proxy=tor → worker-7.log (respawn)
+Audit w9 pid=9972 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 14 recent exits
+Audit w1 pid=18296 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w5 (kl) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w2 (ef) exited with code 1
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 10 recent exits
+Audit w2 pid=17440 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w3 (gh) exited with code 1
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 10 recent exits
+Audit w5 pid=10800 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 9 recent exits
+Audit w10 pid=5648 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Audit w7 (op) exited with code 1
+Wiped profile for w11 (wxyz) after 12 recent exits
+Audit w11 pid=21292 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 8 active, 0 complete, 4 restarting
+Audit w9 (st) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Audit w6 (mn) exited with code 1
+Wiped profile for w3 (gh) after 12 recent exits
+Wiped profile for w9 (st) after 12 recent exits
+Audit w9 pid=17020 letters=st proxy=tor → worker-9.log (respawn)
+Audit w3 pid=11740 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 10 recent exits
+Wiped profile for w8 (qr) after 10 recent exits
+Audit w8 pid=5952 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w6 pid=20344 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 14 recent exits
+Wiped profile for w0 (ab) after 12 recent exits
+Audit w1 pid=7708 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w0 pid=5744 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 10 recent exits
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 10 recent exits
+Audit w4 pid=3612 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w7 pid=9400 letters=op proxy=tor → worker-7.log (respawn)
+Audit w5 (kl) exited with code 1
+Audit w2 (ef) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Audit w10 (uv) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 10 recent exits
+Audit w5 pid=20652 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 10 recent exits
+Audit w2 pid=6392 letters=ef proxy=tor → worker-2.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 9 recent exits
+Audit w10 pid=13280 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w0 (ab) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 10 recent exits
+Audit w7 pid=17132 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 12 recent exits
+Audit w11 pid=18676 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w6 (mn) exited with code 1
+Audit w1 (cd) exited with code 1
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 12 recent exits
+Audit w9 pid=15908 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 10 recent exits
+Audit w8 pid=3256 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w4 (ij) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 13 recent exits
+Audit w1 pid=9624 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w10 (uv) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w7 (op) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 11 recent exits
+Audit w0 pid=7460 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 10 recent exits
+Audit w2 pid=12104 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 11 recent exits
+Audit w3 pid=7364 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 9 recent exits
+Audit w4 pid=12496 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 10 recent exits
+Audit w5 pid=6528 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 9 recent exits
+Audit w6 pid=18928 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 10 recent exits
+Audit w7 pid=10940 letters=op proxy=tor → worker-7.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 10 recent exits
+Audit w10 pid=6236 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 12 recent exits
+Audit w11 pid=5204 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 3 active, 0 complete, 9 restarting
+Audit w8 (qr) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 11 recent exits
+Audit w9 pid=19276 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 9 recent exits
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Audit w8 pid=9796 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Audit w1 (cd) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 12 recent exits
+Audit w1 pid=23044 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Audit w0 (ab) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Audit w3 (gh) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w8 (qr) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 9 recent exits
+Audit w5 pid=7276 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w11 pid=21228 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w5 (kl) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 9 recent exits
+Audit w2 pid=10632 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 10 recent exits
+Audit w0 pid=19728 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 12 recent exits
+Audit w1 pid=21684 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 10 recent exits
+Audit w3 pid=5792 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 8 recent exits
+Audit w4 pid=13764 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 10 recent exits
+Audit w5 pid=13204 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 8 recent exits
+Wiped profile for w7 (op) after 9 recent exits
+Audit w6 pid=15556 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w8 (qr) not running — spawning
+Audit w7 pid=2772 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 9 recent exits
+Wiped profile for w9 (st) after 11 recent exits
+Audit w8 pid=13708 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w10 (uv) not running — spawning
+Audit w9 pid=4376 letters=st proxy=tor → worker-9.log (respawn)
+Wiped profile for w10 (uv) after 9 recent exits
+Audit w10 pid=7912 letters=uv proxy=tor → worker-10.log (respawn)
+Health: 2 active, 0 complete, 10 restarting
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Audit w11 (wxyz) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w8 (qr) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Audit w2 (ef) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 10 recent exits
+Audit w11 pid=21656 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w5 (kl) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 8 recent exits
+Audit w10 pid=10204 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Audit w10 (uv) exited with code 1
+Wiped profile for w0 (ab) after 9 recent exits
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Audit w0 pid=6968 letters=ab proxy=tor → worker-0.log (respawn)
+Wiped profile for w8 (qr) after 9 recent exits
+Audit w8 pid=14204 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 9 recent exits
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Audit w7 pid=5700 letters=op proxy=tor → worker-7.log (respawn)
+Wiped profile for w3 (gh) after 9 recent exits
+Audit w3 pid=19900 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 10 recent exits
+Audit w9 pid=20060 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 8 recent exits
+Audit w6 pid=22352 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 11 recent exits
+Audit w1 pid=8160 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 8 recent exits
+Audit w4 pid=8048 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w7 (op) exited with code 1
+Audit w8 (qr) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 9 recent exits
+Audit w10 pid=2552 letters=uv proxy=tor → worker-10.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 9 recent exits
+Audit w2 pid=16724 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w3 (gh) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 9 recent exits
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w5 pid=15372 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w11 pid=19564 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 9 recent exits
+Audit w7 pid=13720 letters=op proxy=tor → worker-7.log (respawn)
+Audit w2 (ef) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w5 (kl) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 9 recent exits
+Audit w0 pid=6732 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 11 recent exits
+Audit w1 pid=20868 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 9 recent exits
+Audit w2 pid=5208 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 9 recent exits
+Audit w3 pid=3520 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 8 recent exits
+Audit w4 pid=8908 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 10 recent exits
+Audit w5 pid=23160 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 8 recent exits
+Audit w6 pid=9944 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 9 recent exits
+Audit w8 pid=12108 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 10 recent exits
+Audit w9 pid=12520 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 10 recent exits
+Audit w10 pid=864 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w11 pid=17440 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 1 active, 0 complete, 11 restarting
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Audit w7 (op) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+d proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 12 recent exits
+Audit w2 pid=11568 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 10 recent exits
+Audit w3 pid=20340 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 10 recent exits
+Audit w4 pid=9680 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 11 recent exits
+Audit w5 pid=19784 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 11 recent exits
+Audit w6 pid=7376 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 11 recent exits
+Audit w7 pid=1452 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 10 recent exits
+Audit w8 pid=22892 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 11 recent exits
+Audit w9 pid=15332 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 10 recent exits
+Audit w10 pid=14276 letters=uv proxy=tor → worker-10.log (respawn)
+Health: 1 active, 0 complete, 11 restarting
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w9 (st) exited with code 1
+Audit w11 pid=12552 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w1 (cd) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w0 (ab) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 10 recent exits
+Audit w10 pid=2436 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w8 (qr) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 9 recent exits
+Audit w1 pid=23068 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 11 recent exits
+Audit w5 pid=2732 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Audit w6 (mn) exited with code 1
+Audit w3 (gh) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 10 recent exits
+Wiped profile for w3 (gh) after 10 recent exits
+Audit w4 pid=8148 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w3 pid=12956 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 11 recent exits
+Audit w7 pid=5844 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 10 recent exits
+Audit w8 pid=12576 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w10 (uv) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w8 (qr) exited with code 1
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w11 pid=21032 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 12 recent exits
+Audit w0 pid=8560 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 11 recent exits
+Audit w9 pid=12368 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 11 recent exits
+Audit w2 pid=9240 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w2 (ef) exited with code 1
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 9 recent exits
+Audit w1 pid=19484 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 12 recent exits
+Audit w2 pid=22304 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 10 recent exits
+Audit w3 pid=10164 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 10 recent exits
+Audit w4 pid=18624 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 11 recent exits
+Audit w5 pid=15464 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 10 recent exits
+Audit w6 pid=8268 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 11 recent exits
+Audit w7 pid=5916 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 10 recent exits
+Audit w8 pid=4972 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 10 recent exits
+Audit w10 pid=19940 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w11 pid=9256 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 2 active, 0 complete, 10 restarting
+Audit w0 (ab) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w4 (ij) exited with code 1
+fter exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 20 recent exits
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Audit w9 pid=7092 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Audit w7 (op) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Audit w6 (mn) exited with code 1
+Audit w0 (ab) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Audit w11 (wxyz) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Audit w3 (gh) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w4 (ij) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 24 recent exits
+Audit w2 pid=18468 letters=ef proxy=tor → worker-2.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 19 recent exits
+Wiped profile for w8 (qr) after 17 recent exits
+Audit w9 pid=10896 letters=st proxy=tor → worker-9.log (respawn)
+Audit w8 pid=16288 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 17 recent exits
+Audit w7 pid=21000 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 13 recent exits
+Audit w10 pid=11880 letters=uv proxy=tor → worker-10.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 16 recent exits
+Audit w11 pid=19564 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 19 recent exits
+Audit w1 pid=14228 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w2 (ef) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w1 (cd) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 16 recent exits
+Audit w3 pid=10704 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w3 (gh) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 15 recent exits
+Audit w0 pid=22532 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 18 recent exits
+Audit w8 pid=23384 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 18 recent exits
+Audit w9 pid=4816 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 20 recent exits
+Audit w4 pid=21364 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w0 (ab) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 23 recent exits
+Audit w2 pid=5928 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w4 (ij) exited with code 1
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 17 recent exits
+Audit w7 pid=19276 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 15 recent exits
+Audit w6 pid=22300 letters=mn proxy=tor → worker-6.log (respawn)
+Audit w2 (ef) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w6 (mn) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 15 recent exits
+Audit w5 pid=22128 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 14 recent exits
+Audit w0 pid=12184 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 18 recent exits
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Audit w1 pid=8176 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w11 (wxyz) after 16 recent exits
+Wiped profile for w2 (ef) after 23 recent exits
+Audit w11 pid=11628 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w2 pid=14068 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 15 recent exits
+Audit w3 pid=22352 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 20 recent exits
+Audit w4 pid=2808 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w6 (mn) not running — spawning
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 16 recent exits
+Wiped profile for w10 (uv) after 13 recent exits
+Audit w6 pid=12756 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 18 recent exits
+Audit w10 pid=11916 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w7 pid=14776 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 18 recent exits
+Audit w8 pid=1644 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 19 recent exits
+Audit w9 pid=20060 letters=st proxy=tor → worker-9.log (respawn)
+Health: 3 active, 0 complete, 9 restarting
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Audit w5 (kl) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Audit w0 (ab) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 14 recent exits
+Audit w3 (gh) exited with code 1
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Audit w5 pid=18508 letters=kl proxy=tor → worker-5.log (respawn)
+Audit w1 (cd) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Audit w6 (mn) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Audit w11 (wxyz) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w5 (kl) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 14 recent exits
+Audit w5 pid=9168 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 15 recent exits
+Audit w11 pid=9648 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 21 recent exits
+Audit w2 pid=13052 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w5 (kl) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 14 recent exits
+Audit w3 pid=13100 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 15 recent exits
+Audit w6 pid=22040 letters=mn proxy=tor → worker-6.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 18 recent exits
+Audit w9 pid=20332 letters=st proxy=tor → worker-9.log (respawn)
+Audit w2 (ef) exited with code 1
+Audit w3 (gh) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 16 recent exits
+Audit w8 pid=21500 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w6 (mn) exited with code 1
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 18 recent exits
+Audit w4 pid=8628 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 16 recent exits
+Audit w9 (st) exited with code 1
+Audit w11 pid=21956 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 16 recent exits
+Audit w7 pid=11652 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 15 recent exits
+Audit w1 pid=5928 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 12 recent exits
+Audit w10 pid=16052 letters=uv proxy=tor → worker-10.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 13 recent exits
+Audit w0 pid=8972 letters=ab proxy=tor → worker-0.log (respawn)
+Audit w8 (qr) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 22 recent exits
+Audit w2 pid=12356 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 16 recent exits
+Audit w6 pid=20988 letters=mn proxy=tor → worker-6.log (respawn)
+Audit w4 (ij) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 19 recent exits
+Audit w9 pid=19508 letters=st proxy=tor → worker-9.log (respawn)
+Audit w10 (uv) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 16 recent exits
+Audit w1 pid=18696 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 15 recent exits
+Audit w5 pid=8472 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 19 recent exits
+Audit w4 pid=13944 letters=ij proxy=tor → worker-4.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Audit w2 (ef) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w4 (ij) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 13 recent exits
+Audit w0 pid=6172 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 17 recent exits
+Audit w1 pid=15312 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 22 recent exits
+Audit w2 pid=11980 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 14 recent exits
+Audit w3 pid=6416 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 19 recent exits
+Audit w4 pid=5040 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 15 recent exits
+Audit w5 pid=9240 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 16 recent exits
+Audit w6 pid=10184 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 16 recent exits
+Audit w7 pid=22380 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 16 recent exits
+Audit w8 pid=6444 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 19 recent exits
+Audit w9 pid=12056 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 12 recent exits
+Audit w10 pid=7420 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 16 recent exits
+Audit w11 pid=20232 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Audit w0 (ab) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 16 recent exits
+Audit w7 pid=10400 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 16 recent exits
+Audit w6 pid=21808 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 13 recent exits
+Audit w0 pid=10420 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 16 recent exits
+Wiped profile for w5 (kl) after 15 recent exits
+Audit w11 pid=14880 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w5 pid=19772 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 21 recent exits
+Audit w2 pid=7660 letters=ef proxy=tor → worker-2.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 12 recent exits
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 14 recent exits
+Audit w10 pid=16692 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w3 pid=5916 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w7 (op) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 15 recent exits
+Audit w8 pid=14776 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 16 recent exits
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 19 recent exits
+Wiped profile for w4 (ij) after 18 recent exits
+Audit w1 pid=9028 letters=cd proxy=tor → worker-1.log (respawn)
+Audit w4 pid=12376 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w9 pid=18992 letters=st proxy=tor → worker-9.log (respawn)
+Audit w6 (mn) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Audit w0 (ab) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 15 recent exits
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Audit w7 pid=16288 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Audit w11 (wxyz) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w8 (qr) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 14 recent exits
+Audit w3 pid=6440 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w1 (cd) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w7 (op) exited with code 1
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 13 recent exits
+Audit w0 pid=23160 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 15 recent exits
+Audit w8 pid=18868 letters=qr proxy=tor → worker-8.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 18 recent exits
+Audit w9 pid=4996 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 16 recent exits
+Audit w4 pid=9680 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w3 (gh) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 19 recent exits
+Audit w2 pid=6036 letters=ef proxy=tor → worker-2.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 16 recent exits
+Audit w7 pid=1344 letters=op proxy=tor → worker-7.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 15 recent exits
+Audit w6 pid=12788 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 15 recent exits
+Audit w1 pid=4856 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 14 recent exits
+Audit w3 pid=21392 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 14 recent exits
+Audit w5 pid=8628 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 12 recent exits
+Audit w10 pid=10172 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 15 recent exits
+Audit w11 pid=12492 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 7 active, 0 complete, 5 restarting
+Audit w0 (ab) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w9 (st) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 12 recent exits
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Audit w0 pid=9164 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w4 (ij) after 15 recent exits
+Wiped profile for w8 (qr) after 14 recent exits
+Wiped profile for w9 (st) after 16 recent exits
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Audit w8 pid=3952 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w9 pid=17684 letters=st proxy=tor → worker-9.log (respawn)
+Audit w4 pid=23052 letters=ij proxy=tor → worker-4.log (respawn)
+Audit w6 (mn) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w5 (kl) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 13 recent exits
+Audit w5 pid=19728 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 13 recent exits
+Audit w11 pid=11972 letters=wxyz proxy=tor → worker-11.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 16 recent exits
+Audit w2 pid=1040 letters=ef proxy=tor → worker-2.log (respawn)
+Audit w3 (gh) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 13 recent exits
+Audit w3 pid=7424 letters=gh proxy=tor → worker-3.log (respawn)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 13 recent exits
+Audit w6 pid=9648 letters=mn proxy=tor → worker-6.log (respawn)
+Audit w1 (cd) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 12 recent exits
+Wiped profile for w7 (op) after 13 recent exits
+Audit w7 pid=6172 letters=op proxy=tor → worker-7.log (respawn)
+Audit w1 pid=9996 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 10 recent exits
+Audit w10 pid=9308 letters=uv proxy=tor → worker-10.log (respawn)
+Audit w8 (qr) exited with code 1
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Audit w2 (ef) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w6 (mn) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w7 (op) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 11 recent exits
+Audit w0 pid=16428 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 13 recent exits
+Audit w1 pid=15700 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 16 recent exits
+Audit w2 pid=13100 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 13 recent exits
+Audit w3 pid=9944 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 13 recent exits
+Audit w4 pid=12636 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 13 recent exits
+Audit w5 pid=18464 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 13 recent exits
+Audit w6 pid=19564 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 13 recent exits
+Audit w7 pid=12108 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 12 recent exits
+Audit w8 pid=11440 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 15 recent exits
+Audit w9 pid=15264 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 10 recent exits
+Audit w10 pid=6968 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Wiped profile for w11 (wxyz) after 13 recent exits
+Audit w11 pid=15556 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Audit w6 (mn) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w8 (qr) exited with code 1
+Audit w0 (ab) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Wiped profile for w7 (op) after 12 recent exits
+Audit w7 pid=16540 letters=op proxy=tor → worker-7.log (respawn)
+Audit w7 (op) exited with code 1
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Wiped profile for w6 (mn) after 12 recent exits
+Audit w6 pid=10164 letters=mn proxy=tor → worker-6.log (respawn)
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w0 (ab) after 10 recent exits
+Audit w0 pid=1332 letters=ab proxy=tor → worker-0.log (respawn)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 10 recent exits
+Audit w11 pid=21608 letters=wxyz proxy=tor → worker-11.log (respawn)
+Audit w6 (mn) exited with code 1
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Wiped profile for w5 (kl) after 11 recent exits
+Audit w5 pid=22508 letters=kl proxy=tor → worker-5.log (respawn)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Wiped profile for w2 (ef) after 13 recent exits
+Audit w2 pid=6236 letters=ef proxy=tor → worker-2.log (respawn)
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Wiped profile for w10 (uv) after 9 recent exits
+Audit w10 pid=22612 letters=uv proxy=tor → worker-10.log (respawn)
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 10 recent exits
+Wiped profile for w3 (gh) after 11 recent exits
+Audit w8 pid=9716 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w3 pid=1516 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w0 (ab) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Wiped profile for w1 (cd) after 11 recent exits
+Audit w1 pid=11740 letters=cd proxy=tor → worker-1.log (respawn)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Wiped profile for w9 (st) after 13 recent exits
+Wiped profile for w4 (ij) after 11 recent exits
+Audit w9 pid=18436 letters=st proxy=tor → worker-9.log (respawn)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Audit w4 pid=9976 letters=ij proxy=tor → worker-4.log (respawn)
+Wiped profile for w7 (op) after 12 recent exits
+Audit w7 pid=12492 letters=op proxy=tor → worker-7.log (respawn)
+Audit w11 (wxyz) exited with code 1
+Audit w10 (uv) exited with code 1
+Audit w2 (ef) exited with code 1
+Audit w5 (kl) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w8 (qr) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Wiped profile for w3 (gh) after 12 recent exits
+Audit w3 pid=15596 letters=gh proxy=tor → worker-3.log (respawn)
+Audit w4 (ij) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w7 (op) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w3 (gh) exited with code 1
+Health: w0 (ab) not running — spawning
+Wiped profile for w0 (ab) after 10 recent exits
+Audit w0 pid=10124 letters=ab proxy=tor → worker-0.log (respawn)
+Health: w1 (cd) not running — spawning
+Wiped profile for w1 (cd) after 11 recent exits
+Audit w1 pid=19948 letters=cd proxy=tor → worker-1.log (respawn)
+Health: w2 (ef) not running — spawning
+Wiped profile for w2 (ef) after 12 recent exits
+Audit w2 pid=20028 letters=ef proxy=tor → worker-2.log (respawn)
+Health: w3 (gh) not running — spawning
+Wiped profile for w3 (gh) after 13 recent exits
+Audit w3 pid=7276 letters=gh proxy=tor → worker-3.log (respawn)
+Health: w4 (ij) not running — spawning
+Wiped profile for w4 (ij) after 11 recent exits
+Audit w4 pid=11744 letters=ij proxy=tor → worker-4.log (respawn)
+Health: w5 (kl) not running — spawning
+Wiped profile for w5 (kl) after 11 recent exits
+Audit w5 pid=19008 letters=kl proxy=tor → worker-5.log (respawn)
+Health: w6 (mn) not running — spawning
+Wiped profile for w6 (mn) after 11 recent exits
+Audit w6 pid=6932 letters=mn proxy=tor → worker-6.log (respawn)
+Health: w7 (op) not running — spawning
+Wiped profile for w7 (op) after 13 recent exits
+Audit w7 pid=8348 letters=op proxy=tor → worker-7.log (respawn)
+Health: w8 (qr) not running — spawning
+Wiped profile for w8 (qr) after 11 recent exits
+Audit w8 pid=21608 letters=qr proxy=tor → worker-8.log (respawn)
+Health: w9 (st) not running — spawning
+Wiped profile for w9 (st) after 13 recent exits
+Audit w9 pid=11568 letters=st proxy=tor → worker-9.log (respawn)
+Health: w10 (uv) not running — spawning
+Wiped profile for w10 (uv) after 10 recent exits
+Audit w10 pid=14980 letters=uv proxy=tor → worker-10.log (respawn)
+Health: w11 (wxyz) not running — spawning
+Respawning Audit w0 (ab) after exit (delay 120000ms)
+Wiped profile for w11 (wxyz) after 11 recent exits
+Audit w11 pid=23492 letters=wxyz proxy=tor → worker-11.log (respawn)
+Health: 0 active, 0 complete, 12 restarting
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Respawning Audit w4 (ij) after exit (delay 120000ms)
+Respawning Audit w9 (st) after exit (delay 120000ms)
+Respawning Audit w6 (mn) after exit (delay 120000ms)
+Respawning Audit w7 (op) after exit (delay 120000ms)
+Respawning Audit w11 (wxyz) after exit (delay 120000ms)
+Respawning Audit w2 (ef) after exit (delay 120000ms)
+Respawning Audit w5 (kl) after exit (delay 120000ms)
+Audit w8 (qr) exited with code 1
+Audit w0 (ab) exited with code 1
+Respawning Audit w3 (gh) after exit (delay 120000ms)
+Audit w6 (mn) exited with code 1
+Respawning Audit w1 (cd) after exit (delay 120000ms)
+Audit w5 (kl) exited with code 1
+Audit w11 (wxyz) exited with code 1
+Audit w9 (st) exited with code 1
+Audit w4 (ij) exited with code 1
+Audit w3 (gh) exited with code 1
+Audit w2 (ef) exited with code 1
+Respawning Audit w10 (uv) after exit (delay 120000ms)
+Audit w7 (op) exited with code 1
+Audit w1 (cd) exited with code 1
+Audit w10 (uv) exited with code 1
+Respawning Audit w8 (qr) after exit (delay 120000ms)
+Wiped profile for w8 (qr) after 10 recent exits
+Audit w8 pid=22056 letters=qr proxy=tor → worker-8.log (respawn)
+Audit w8 (qr) exited with code 3221225786
+Starting 12 recursive scrapers against https://lastletterlibrary.com
+PROXY_MODE=tor
+LIBRARY_MODE=pro (activeMode on /api/words/game)
+SEARCH_MODE=direct FAST_MODE=1
+MIN_GAP_MS=15500
+Hardened: auto-respawn on crash, kill+respawn on stale logs,
+Tor rotate on BANNED_IP/Turnstile/timeout, exit-IP dedup, never drop prefixes.
+Stagger=3500ms cooldown=0ms stale=360000ms
+Audit w0 pid=18384 letters=ab proxy=tor → worker-0.log
+Audit w1 pid=17432 letters=cd proxy=tor → worker-1.log
+Audit w2 pid=18624 letters=ef proxy=tor → worker-2.log
+Audit w3 pid=9164 letters=gh proxy=tor → worker-3.log
+Audit w4 pid=7736 letters=ij proxy=tor → worker-4.log
+Audit w5 pid=12456 letters=kl proxy=tor → worker-5.log
+Audit w6 pid=17980 letters=mn proxy=tor → worker-6.log
+Audit w7 pid=12328 letters=op proxy=tor → worker-7.log
+Audit w8 pid=20916 letters=qr proxy=tor → worker-8.log
+Audit w9 pid=5156 letters=st proxy=tor → worker-9.log
+Audit w10 pid=13356 letters=uv proxy=tor → worker-10.log
+Audit w11 pid=17692 letters=wxyz proxy=tor → worker-11.log
+
+All workers launched. Supervisor watching forever.
+Merged words: last.txt
+Stop: pkill -f 'node audit.mjs'; pkill -f 'node run-12.mjs'
+Health: 12 active, 0 complete, 0 restarting
+Health: 12 active, 0 complete, 0 restarting
+Health: 12 active, 0 complete, 0 restarting
+Health: 12 active, 0 complete, 0 restarting
+Audit w4 (ij) exited with code 1
+Audit w0 (ab) exited with code 1
