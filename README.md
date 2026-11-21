@@ -1,5 +1,6 @@
 # lll-scraper
-warning this takes about 9-11 gb of ram and 48 hours continuously  
+warning this takes about 9-11 gb of ram and 48 hours continuously
+WINDOWS ONLY 
 # test-scraper
 
 Prefix scrape of the Pro library. Twelve workers walk `a`–`z` against `/api/words/game`, save progress, and merge into `last.txt`.
